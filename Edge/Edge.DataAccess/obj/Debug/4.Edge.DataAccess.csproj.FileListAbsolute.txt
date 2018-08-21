@@ -1,0 +1,15 @@
+D:\Implementations\NEC\Code\Edge\Edge.DataAccess\bin\Debug\Edge.DataAccess.dll.config
+D:\Implementations\NEC\Code\Edge\Edge.DataAccess\bin\Debug\Edge.DataAccess.dll
+D:\Implementations\NEC\Code\Edge\Edge.DataAccess\bin\Debug\Edge.DataAccess.pdb
+D:\Implementations\NEC\Code\Edge\Edge.DataAccess\bin\Debug\Edge.Models.dll
+D:\Implementations\NEC\Code\Edge\Edge.DataAccess\bin\Debug\EntityFramework.dll
+D:\Implementations\NEC\Code\Edge\Edge.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+D:\Implementations\NEC\Code\Edge\Edge.DataAccess\bin\Debug\Edge.Models.pdb
+D:\Implementations\NEC\Code\Edge\Edge.DataAccess\bin\Debug\Edge.Models.dll.config
+D:\Implementations\NEC\Code\Edge\Edge.DataAccess\bin\Debug\EntityFramework.xml
+D:\Implementations\NEC\Code\Edge\Edge.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+D:\Implementations\NEC\Code\Edge\Edge.DataAccess\obj\Debug\4.Edge.DataAccess.csprojAssemblyReference.cache
+D:\Implementations\NEC\Code\Edge\Edge.DataAccess\obj\Debug\4.Edge.DataAccess.csproj.CoreCompileInputs.cache
+D:\Implementations\NEC\Code\Edge\Edge.DataAccess\obj\Debug\4.Edge.DataAccess.csproj.CopyComplete
+D:\Implementations\NEC\Code\Edge\Edge.DataAccess\obj\Debug\Edge.DataAccess.dll
+D:\Implementations\NEC\Code\Edge\Edge.DataAccess\obj\Debug\Edge.DataAccess.pdb

@@ -1,0 +1,12 @@
+D:\Implementations\NEC\Code\Edge\Edge.Models\bin\Debug\Edge.Models.dll.config
+D:\Implementations\NEC\Code\Edge\Edge.Models\bin\Debug\Edge.Models.dll
+D:\Implementations\NEC\Code\Edge\Edge.Models\bin\Debug\Edge.Models.pdb
+D:\Implementations\NEC\Code\Edge\Edge.Models\bin\Debug\EntityFramework.dll
+D:\Implementations\NEC\Code\Edge\Edge.Models\bin\Debug\EntityFramework.SqlServer.dll
+D:\Implementations\NEC\Code\Edge\Edge.Models\bin\Debug\EntityFramework.xml
+D:\Implementations\NEC\Code\Edge\Edge.Models\bin\Debug\EntityFramework.SqlServer.xml
+D:\Implementations\NEC\Code\Edge\Edge.Models\obj\Debug\5.Edge.Models.csproj.CoreCompileInputs.cache
+D:\Implementations\NEC\Code\Edge\Edge.Models\obj\Debug\5.Edge.Models.csproj.CopyComplete
+D:\Implementations\NEC\Code\Edge\Edge.Models\obj\Debug\Edge.Models.dll
+D:\Implementations\NEC\Code\Edge\Edge.Models\obj\Debug\Edge.Models.pdb
+D:\Implementations\NEC\Code\Edge\Edge.Models\obj\Debug\5.Edge.Models.csprojAssemblyReference.cache

@@ -1,0 +1,15 @@
+D:\Implementations\NEC\Code\Edge\Edge.DataAccess\bin\Release\Edge.DataAccess.dll.config
+D:\Implementations\NEC\Code\Edge\Edge.DataAccess\bin\Release\Edge.DataAccess.dll
+D:\Implementations\NEC\Code\Edge\Edge.DataAccess\bin\Release\Edge.DataAccess.pdb
+D:\Implementations\NEC\Code\Edge\Edge.DataAccess\bin\Release\Edge.Models.dll
+D:\Implementations\NEC\Code\Edge\Edge.DataAccess\bin\Release\EntityFramework.dll
+D:\Implementations\NEC\Code\Edge\Edge.DataAccess\bin\Release\EntityFramework.SqlServer.dll
+D:\Implementations\NEC\Code\Edge\Edge.DataAccess\bin\Release\Edge.Models.pdb
+D:\Implementations\NEC\Code\Edge\Edge.DataAccess\bin\Release\Edge.Models.dll.config
+D:\Implementations\NEC\Code\Edge\Edge.DataAccess\bin\Release\EntityFramework.xml
+D:\Implementations\NEC\Code\Edge\Edge.DataAccess\bin\Release\EntityFramework.SqlServer.xml
+D:\Implementations\NEC\Code\Edge\Edge.DataAccess\obj\Release\4.Edge.DataAccess.csprojAssemblyReference.cache
+D:\Implementations\NEC\Code\Edge\Edge.DataAccess\obj\Release\4.Edge.DataAccess.csproj.CoreCompileInputs.cache
+D:\Implementations\NEC\Code\Edge\Edge.DataAccess\obj\Release\4.Edge.DataAccess.csproj.CopyComplete
+D:\Implementations\NEC\Code\Edge\Edge.DataAccess\obj\Release\Edge.DataAccess.dll
+D:\Implementations\NEC\Code\Edge\Edge.DataAccess\obj\Release\Edge.DataAccess.pdb
