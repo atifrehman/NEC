@@ -1,0 +1,12 @@
+F:\Impl\NEC\Cloud\Cloud.Models\bin\Debug\Cloud.Models.dll.config
+F:\Impl\NEC\Cloud\Cloud.Models\bin\Debug\Cloud.Models.dll
+F:\Impl\NEC\Cloud\Cloud.Models\bin\Debug\Cloud.Models.pdb
+F:\Impl\NEC\Cloud\Cloud.Models\bin\Debug\EntityFramework.dll
+F:\Impl\NEC\Cloud\Cloud.Models\bin\Debug\EntityFramework.SqlServer.dll
+F:\Impl\NEC\Cloud\Cloud.Models\bin\Debug\EntityFramework.xml
+F:\Impl\NEC\Cloud\Cloud.Models\bin\Debug\EntityFramework.SqlServer.xml
+F:\Impl\NEC\Cloud\Cloud.Models\obj\Debug\4.Cloud.Models.csprojAssemblyReference.cache
+F:\Impl\NEC\Cloud\Cloud.Models\obj\Debug\4.Cloud.Models.csproj.CoreCompileInputs.cache
+F:\Impl\NEC\Cloud\Cloud.Models\obj\Debug\4.Cloud.Models.csproj.CopyComplete
+F:\Impl\NEC\Cloud\Cloud.Models\obj\Debug\Cloud.Models.dll
+F:\Impl\NEC\Cloud\Cloud.Models\obj\Debug\Cloud.Models.pdb

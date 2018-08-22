@@ -1,0 +1,15 @@
+F:\Impl\NEC\Cloud\Cloud.DataAccess\bin\Debug\Cloud.DataAccess.dll.config
+F:\Impl\NEC\Cloud\Cloud.DataAccess\bin\Debug\Cloud.DataAccess.dll
+F:\Impl\NEC\Cloud\Cloud.DataAccess\bin\Debug\Cloud.DataAccess.pdb
+F:\Impl\NEC\Cloud\Cloud.DataAccess\bin\Debug\Cloud.Models.dll
+F:\Impl\NEC\Cloud\Cloud.DataAccess\bin\Debug\EntityFramework.dll
+F:\Impl\NEC\Cloud\Cloud.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+F:\Impl\NEC\Cloud\Cloud.DataAccess\bin\Debug\Cloud.Models.pdb
+F:\Impl\NEC\Cloud\Cloud.DataAccess\bin\Debug\Cloud.Models.dll.config
+F:\Impl\NEC\Cloud\Cloud.DataAccess\bin\Debug\EntityFramework.xml
+F:\Impl\NEC\Cloud\Cloud.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+F:\Impl\NEC\Cloud\Cloud.DataAccess\obj\Debug\3.Cloud.DataAccess.csprojAssemblyReference.cache
+F:\Impl\NEC\Cloud\Cloud.DataAccess\obj\Debug\3.Cloud.DataAccess.csproj.CoreCompileInputs.cache
+F:\Impl\NEC\Cloud\Cloud.DataAccess\obj\Debug\3.Cloud.DataAccess.csproj.CopyComplete
+F:\Impl\NEC\Cloud\Cloud.DataAccess\obj\Debug\Cloud.DataAccess.dll
+F:\Impl\NEC\Cloud\Cloud.DataAccess\obj\Debug\Cloud.DataAccess.pdb

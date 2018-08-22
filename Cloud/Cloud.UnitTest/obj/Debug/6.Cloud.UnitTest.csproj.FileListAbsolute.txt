@@ -1,0 +1,14 @@
+F:\Impl\NEC\Cloud\Cloud.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+F:\Impl\NEC\Cloud\Cloud.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+F:\Impl\NEC\Cloud\Cloud.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+F:\Impl\NEC\Cloud\Cloud.UnitTest\bin\Debug\Cloud.UnitTest.dll
+F:\Impl\NEC\Cloud\Cloud.UnitTest\bin\Debug\Cloud.UnitTest.pdb
+F:\Impl\NEC\Cloud\Cloud.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+F:\Impl\NEC\Cloud\Cloud.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+F:\Impl\NEC\Cloud\Cloud.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+F:\Impl\NEC\Cloud\Cloud.UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+F:\Impl\NEC\Cloud\Cloud.UnitTest\obj\Debug\6.Cloud.UnitTest.csprojAssemblyReference.cache
+F:\Impl\NEC\Cloud\Cloud.UnitTest\obj\Debug\6.Cloud.UnitTest.csproj.CoreCompileInputs.cache
+F:\Impl\NEC\Cloud\Cloud.UnitTest\obj\Debug\6.Cloud.UnitTest.csproj.CopyComplete
+F:\Impl\NEC\Cloud\Cloud.UnitTest\obj\Debug\Cloud.UnitTest.dll
+F:\Impl\NEC\Cloud\Cloud.UnitTest\obj\Debug\Cloud.UnitTest.pdb

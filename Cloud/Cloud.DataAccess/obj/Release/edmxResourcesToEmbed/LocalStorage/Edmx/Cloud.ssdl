@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CloudModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Logging">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Type" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Message" Type="nvarchar(max)" />
+    <Property Name="LineNumber" Type="int" />
+    <Property Name="MethodName" Type="varchar" MaxLength="250" />
+    <Property Name="ExceptionMessage" Type="nvarchar(max)" />
+    <Property Name="InnerExceptionMessage" Type="nvarchar(max)" />
+    <Property Name="CreatedDate" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Sample">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NodeName" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="NodeType" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="RequestStartTime" Type="datetime" Nullable="false" />
+    <Property Name="RequestEndTime" Type="datetime" Nullable="false" />
+    <Property Name="CreatedBy" Type="int" />
+    <Property Name="UpdatedBy" Type="int" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="UpdatedDate" Type="datetime" />
+    <Property Name="IsDeleted" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="CloudModelStoreContainer">
+    <EntitySet Name="Logging" EntityType="Self.Logging" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Sample" EntityType="Self.Sample" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>
