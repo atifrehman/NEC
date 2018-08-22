@@ -3,7 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cloud.API", "Cloud.API\Cloud.API.csproj", "{36F8877F-666C-43EC-8404-7B0BC4A34CE9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.Cloud.API", "Cloud.API\1.Cloud.API.csproj", "{36F8877F-666C-43EC-8404-7B0BC4A34CE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.Cloud.Services", "Cloud.Services\2.Cloud.Services.csproj", "{ADAB31C6-9788-450E-88B6-FB3F25647995}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.Cloud.DataAccess", "Cloud.DataAccess\3.Cloud.DataAccess.csproj", "{43B2A6CE-68CB-40E2-92C3-A42529206BB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.Cloud.Models", "Cloud.Models\4.Cloud.Models.csproj", "{CFD992BD-05B0-4E09-BA5B-FB70E1BEC816}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.Cloud.Components", "Cloud.Components\5.Cloud.Components.csproj", "{2AE65873-1AE7-48D1-A45F-DCA17117C416}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6.Cloud.UnitTest", "Cloud.UnitTest\6.Cloud.UnitTest.csproj", "{22D2AF38-0C20-49DB-9C5B-CD553F86E93B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +25,26 @@ Global
 		{36F8877F-666C-43EC-8404-7B0BC4A34CE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{36F8877F-666C-43EC-8404-7B0BC4A34CE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{36F8877F-666C-43EC-8404-7B0BC4A34CE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADAB31C6-9788-450E-88B6-FB3F25647995}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADAB31C6-9788-450E-88B6-FB3F25647995}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADAB31C6-9788-450E-88B6-FB3F25647995}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADAB31C6-9788-450E-88B6-FB3F25647995}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43B2A6CE-68CB-40E2-92C3-A42529206BB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43B2A6CE-68CB-40E2-92C3-A42529206BB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43B2A6CE-68CB-40E2-92C3-A42529206BB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43B2A6CE-68CB-40E2-92C3-A42529206BB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFD992BD-05B0-4E09-BA5B-FB70E1BEC816}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFD992BD-05B0-4E09-BA5B-FB70E1BEC816}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFD992BD-05B0-4E09-BA5B-FB70E1BEC816}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFD992BD-05B0-4E09-BA5B-FB70E1BEC816}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AE65873-1AE7-48D1-A45F-DCA17117C416}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AE65873-1AE7-48D1-A45F-DCA17117C416}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AE65873-1AE7-48D1-A45F-DCA17117C416}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AE65873-1AE7-48D1-A45F-DCA17117C416}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22D2AF38-0C20-49DB-9C5B-CD553F86E93B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22D2AF38-0C20-49DB-9C5B-CD553F86E93B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22D2AF38-0C20-49DB-9C5B-CD553F86E93B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22D2AF38-0C20-49DB-9C5B-CD553F86E93B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
