@@ -10,3 +10,15 @@ D:\Implementations\NEC\Code\Edge\Edge.Models\obj\Release\5.Edge.Models.csproj.Co
 D:\Implementations\NEC\Code\Edge\Edge.Models\obj\Release\5.Edge.Models.csproj.CopyComplete
 D:\Implementations\NEC\Code\Edge\Edge.Models\obj\Release\Edge.Models.dll
 D:\Implementations\NEC\Code\Edge\Edge.Models\obj\Release\Edge.Models.pdb
+F:\Impl\NEC\Edge\Edge.Models\bin\Release\Edge.Models.dll.config
+F:\Impl\NEC\Edge\Edge.Models\bin\Release\Edge.Models.dll
+F:\Impl\NEC\Edge\Edge.Models\bin\Release\Edge.Models.pdb
+F:\Impl\NEC\Edge\Edge.Models\bin\Release\EntityFramework.dll
+F:\Impl\NEC\Edge\Edge.Models\bin\Release\EntityFramework.SqlServer.dll
+F:\Impl\NEC\Edge\Edge.Models\bin\Release\EntityFramework.xml
+F:\Impl\NEC\Edge\Edge.Models\bin\Release\EntityFramework.SqlServer.xml
+F:\Impl\NEC\Edge\Edge.Models\obj\Release\5.Edge.Models.csprojAssemblyReference.cache
+F:\Impl\NEC\Edge\Edge.Models\obj\Release\5.Edge.Models.csproj.CoreCompileInputs.cache
+F:\Impl\NEC\Edge\Edge.Models\obj\Release\5.Edge.Models.csproj.CopyComplete
+F:\Impl\NEC\Edge\Edge.Models\obj\Release\Edge.Models.dll
+F:\Impl\NEC\Edge\Edge.Models\obj\Release\Edge.Models.pdb

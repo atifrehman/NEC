@@ -47,6 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CustomModels\SampleCloud.cs" />
     <Compile Include="DatabaseModels\Edge.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -68,9 +69,7 @@
     <Compile Include="Enumerations\Enumeration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="CustomModels\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="DatabaseModels\Edge.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>

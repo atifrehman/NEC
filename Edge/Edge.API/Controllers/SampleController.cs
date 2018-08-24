@@ -35,9 +35,16 @@ namespace Edge.API.Controllers
             sampleRequest.RequestEndTime = DateTime.Now;
             _sampleService.AddSample(sampleRequest);
 
+            if (string.Equals(nodeName, "\"CentralizeNode\""))
+            {
+                string cloudResult = string.Concat(_sampleService.GetSampleFromCloud(), " ", "Using Edge");
+
+                return new string[] { cloudResult };
+            }
+
             return new string[] { "Sample Result" };
         }
 
-        
+
     }
 }

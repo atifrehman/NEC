@@ -22,43 +22,43 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/15/2018 19:38:44</publishTime>
     </File>
     <File Include="bin/Edge.API.dll">
-      <publishTime>08/16/2018 05:17:05</publishTime>
+      <publishTime>08/25/2018 02:17:42</publishTime>
     </File>
     <File Include="bin/Edge.API.pdb">
-      <publishTime>08/16/2018 05:17:05</publishTime>
+      <publishTime>08/25/2018 02:17:42</publishTime>
     </File>
     <File Include="bin/Edge.Components.dll">
-      <publishTime>08/16/2018 05:17:05</publishTime>
+      <publishTime>08/25/2018 02:17:41</publishTime>
     </File>
     <File Include="bin/Edge.Components.dll.config">
       <publishTime>08/16/2018 04:17:28</publishTime>
     </File>
     <File Include="bin/Edge.Components.pdb">
-      <publishTime>08/16/2018 05:17:05</publishTime>
+      <publishTime>08/25/2018 02:17:41</publishTime>
     </File>
     <File Include="bin/Edge.DataAccess.dll">
-      <publishTime>08/16/2018 05:17:05</publishTime>
+      <publishTime>08/25/2018 02:17:41</publishTime>
     </File>
     <File Include="bin/Edge.DataAccess.dll.config">
       <publishTime>08/16/2018 03:37:02</publishTime>
     </File>
     <File Include="bin/Edge.DataAccess.pdb">
-      <publishTime>08/16/2018 05:17:05</publishTime>
+      <publishTime>08/25/2018 02:17:41</publishTime>
     </File>
     <File Include="bin/Edge.Models.dll">
-      <publishTime>08/16/2018 05:17:04</publishTime>
+      <publishTime>08/25/2018 02:17:40</publishTime>
     </File>
     <File Include="bin/Edge.Models.dll.config">
       <publishTime>08/16/2018 00:27:24</publishTime>
     </File>
     <File Include="bin/Edge.Models.pdb">
-      <publishTime>08/16/2018 05:17:04</publishTime>
+      <publishTime>08/25/2018 02:17:40</publishTime>
     </File>
     <File Include="bin/Edge.Services.dll">
-      <publishTime>08/16/2018 05:17:05</publishTime>
+      <publishTime>08/25/2018 02:17:42</publishTime>
     </File>
     <File Include="bin/Edge.Services.pdb">
-      <publishTime>08/16/2018 05:17:05</publishTime>
+      <publishTime>08/25/2018 02:17:42</publishTime>
     </File>
     <File Include="bin/EntityFramework.dll">
       <publishTime>03/29/2018 14:51:46</publishTime>
@@ -280,7 +280,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/15/2018 19:38:38</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>08/16/2018 05:17:06</publishTime>
+      <publishTime>08/25/2018 02:17:43</publishTime>
     </File>
   </ItemGroup>
 </Project>

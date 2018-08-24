@@ -11,6 +11,8 @@ namespace Edge.Services.Interface
     {
         List<Sample> GetAllSample();
 
+        string GetSampleFromCloud();
+
         List<Sample> GetAllSample(bool isDeleted);
 
         Sample GetSampleBy(int id);

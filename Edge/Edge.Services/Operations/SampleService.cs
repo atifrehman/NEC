@@ -1,4 +1,6 @@
-﻿using Edge.DataAccess.LocalStorage.Interface;
+﻿using Edge.DataAccess.Cloud.Interface;
+using Edge.DataAccess.Cloud.Repository;
+using Edge.DataAccess.LocalStorage.Interface;
 using Edge.DataAccess.LocalStorage.Repository;
 using Edge.Models.DatabaseModels;
 using Edge.Services.Interface;
@@ -14,14 +16,29 @@ namespace Edge.Services.Operations
     public class SampleService:ISampleService
     {
         ISampleRepository _sampleRepository;
+        ISampleCloudRepository _sampleCloudRepository;
         public SampleService()
         {
             _sampleRepository = new SampleRepository();
+            _sampleCloudRepository = new SampleCloudRepository();
         }
 
         #region Sample
 
         #region Get
+
+        public string GetSampleFromCloud()
+        {
+            try
+            {
+                return _sampleCloudRepository.GetResult();
+            }
+            catch (Exception ex)
+            {
+                LogHelper.WriteExceptionLog(ex);
+                return null;
+            }
+        }
 
         public List<Sample> GetAllSample()
         {

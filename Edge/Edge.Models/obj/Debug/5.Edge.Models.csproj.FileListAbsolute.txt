@@ -10,3 +10,14 @@ D:\Implementations\NEC\Code\Edge\Edge.Models\obj\Debug\5.Edge.Models.csproj.Copy
 D:\Implementations\NEC\Code\Edge\Edge.Models\obj\Debug\Edge.Models.dll
 D:\Implementations\NEC\Code\Edge\Edge.Models\obj\Debug\Edge.Models.pdb
 D:\Implementations\NEC\Code\Edge\Edge.Models\obj\Debug\5.Edge.Models.csprojAssemblyReference.cache
+F:\Impl\NEC\Edge\Edge.Models\bin\Debug\Edge.Models.dll.config
+F:\Impl\NEC\Edge\Edge.Models\bin\Debug\Edge.Models.dll
+F:\Impl\NEC\Edge\Edge.Models\bin\Debug\Edge.Models.pdb
+F:\Impl\NEC\Edge\Edge.Models\bin\Debug\EntityFramework.dll
+F:\Impl\NEC\Edge\Edge.Models\bin\Debug\EntityFramework.SqlServer.dll
+F:\Impl\NEC\Edge\Edge.Models\bin\Debug\EntityFramework.xml
+F:\Impl\NEC\Edge\Edge.Models\bin\Debug\EntityFramework.SqlServer.xml
+F:\Impl\NEC\Edge\Edge.Models\obj\Debug\5.Edge.Models.csproj.CoreCompileInputs.cache
+F:\Impl\NEC\Edge\Edge.Models\obj\Debug\5.Edge.Models.csproj.CopyComplete
+F:\Impl\NEC\Edge\Edge.Models\obj\Debug\Edge.Models.dll
+F:\Impl\NEC\Edge\Edge.Models\obj\Debug\Edge.Models.pdb

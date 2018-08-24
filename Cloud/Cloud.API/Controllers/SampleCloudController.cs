@@ -18,8 +18,7 @@ namespace Cloud.API.Controllers
         {
             _sampleService = new SampleService();
         }
-
-        // GET api/computeHash?nodeType="Gateway"&nodeName="CentralizeNode"
+        
         [HttpGet]
         public IEnumerable<string> GetResult()
         {
@@ -35,6 +34,23 @@ namespace Cloud.API.Controllers
             _sampleService.AddSample(sampleRequest);
 
             return new string[] { "Sample Result from cloud" };
+        }
+
+        [HttpGet]
+        public Sample GetCloudResult()
+        {
+            DateTime requestStartTime = DateTime.Now;
+
+            LogHelper.WriteDebugLog("ComputeHash");
+
+            Sample sampleRequest = new Sample();
+            sampleRequest.NodeName = "Edge";
+            sampleRequest.NodeType = "NDN";
+            sampleRequest.RequestStartTime = requestStartTime;
+            sampleRequest.RequestEndTime = DateTime.Now;
+            _sampleService.AddSample(sampleRequest);
+
+            return sampleRequest;
         }
 
 
