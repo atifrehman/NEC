@@ -1,0 +1,35 @@
+﻿
+@{
+    ViewBag.Title = "SingleEntryStats";
+}
+
+<h2>Average Delay: <span id="delayValue"></span></h2>
+
+<input type="button" onclick="updateStats()" value="Get Stats" />
+
+<script>
+    
+
+
+    function updateStats() {
+        $('#delayValue').val('');
+       $.ajax({
+           type: "GET",
+           url: '@Url.Action("GetStatsForSingleEntrySearch", "Home")',
+           contentType: "application/json",
+           dataType: "json",
+           success: function (data) {
+               if (data) {
+                   $('#delayValue').html(data);
+               }
+
+           }
+            });
+    }
+
+
+
+
+
+</script>
+

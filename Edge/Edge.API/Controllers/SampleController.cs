@@ -22,20 +22,20 @@ namespace Edge.API.Controllers
 
         // GET api/computeHash?nodeType="Gateway"&nodeName="CentralizeNode"
         [HttpGet]
-        public IEnumerable<string> ComputeHash(string nodeType, string nodeName)
+        public IEnumerable<string> ComputeHash(string nodeType, string requestName)
         {
             DateTime requestStartTime = DateTime.Now;
 
             LogHelper.WriteDebugLog("ComputeHash");
 
             Sample sampleRequest = new Sample();
-            sampleRequest.NodeName = nodeName;
+            sampleRequest.NodeName = requestName;
             sampleRequest.NodeType = nodeType;
             sampleRequest.RequestStartTime = requestStartTime;
             sampleRequest.RequestEndTime = DateTime.Now;
             _sampleService.AddSample(sampleRequest);
 
-            if (string.Equals(nodeName, "\"CentralizeNode\""))
+            if (string.Equals(requestName, "\"CentralizeNode\""))
             {
                 string cloudResult = string.Concat(_sampleService.GetSampleFromCloud(), " ", "Using Edge");
 

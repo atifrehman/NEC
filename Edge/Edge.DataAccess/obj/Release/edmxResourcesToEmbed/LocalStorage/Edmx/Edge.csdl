@@ -31,5 +31,14 @@
   <EntityContainer Name="EdgeEntities" annotation:LazyLoadingEnabled="true">
     <EntitySet Name="Loggings" EntityType="Self.Logging" />
     <EntitySet Name="Samples" EntityType="Self.Sample" />
+    <EntitySet Name="EdgeServices" EntityType="EdgeModel.EdgeService" />
   </EntityContainer>
+  <EntityType Name="EdgeService">
+    <Key>
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="ServiceName" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="ServiceName" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
 </Schema>

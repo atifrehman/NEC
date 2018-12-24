@@ -40,7 +40,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Interface\IEdgeServicesService.cs" />
     <Compile Include="Interface\ISampleService.cs" />
+    <Compile Include="Operations\EdgeServicesService.cs" />
     <Compile Include="Operations\SampleService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

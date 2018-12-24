@@ -1,0 +1,53 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+<script>
+    var maxId = 0;
+</script>
+<input type="hidden" value="0" id="maxId" />
+
+<table class="table" style="margin-top:10px">
+    <thead>
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Request Name</th>
+            <th scope="col">Node Type</th>
+            <th scope="col">Request Start Time</th>
+            <th scope="col">Request End Time</th>
+        </tr>
+    </thead>
+    <tbody id="statsBody">
+        <tr></tr>
+    </tbody>
+</table>
+
+
+<script>
+    setInterval(updateStats, 1000);
+
+
+    function updateStats() {
+        var id = maxId;
+       $.ajax({
+           type: "GET",
+           url: '@Url.Action("GetStats", "Home")',
+           contentType: "application/json",
+           data: { id: id },
+           dataType: "json",
+           success: function (data) {
+               if (data) {
+                   maxId = data[data.length - 1].Id;
+                   $.each(data, function (item) {
+                       $('#statsBody').append('<tr><td>' + data[item].Id + '</td><td>' + data[item].NodeName + '</td><td>' + data[item].NodeType + '</td><td>' + data[item].RequestStartTime + '</td><td>' + data[item].RequestEndTime + '</td></tr>');
+                   });
+               }
+
+           }
+            });
+    }
+
+
+
+
+
+</script>

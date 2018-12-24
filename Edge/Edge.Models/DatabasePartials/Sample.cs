@@ -16,7 +16,7 @@ namespace Edge.Models.DatabaseModels
     internal sealed class SampleMetadata
     {
         public int Id { get; set; }
-        [Required]
+        [Required]   // change propoerty name to request name
         public string NodeName { get; set; }
         [Required]
         public string NodeType { get; set; }

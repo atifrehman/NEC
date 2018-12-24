@@ -4,7 +4,17 @@
   <edmx:Runtime>
     <!-- SSDL content -->
     <edmx:StorageModels>
-      <Schema Namespace="EdgeModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+    <Schema Namespace="EdgeModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'Edge.dbo.EdgeServices' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="EdgeServices">
+          <Key>
+            <PropertyRef Name="Id" />
+            <PropertyRef Name="ServiceName" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" />
+          <Property Name="ServiceName" Type="nvarchar(max)" Nullable="false" />
+        </EntityType>
         <EntityType Name="Logging">
           <Key>
             <PropertyRef Name="Id" />
@@ -36,9 +46,14 @@
         <EntityContainer Name="EdgeModelStoreContainer">
           <EntitySet Name="Logging" EntityType="Self.Logging" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Sample" EntityType="Self.Sample" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="EdgeServices" EntityType="Self.EdgeServices" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [EdgeServices].[Id] AS [Id], 
+    [EdgeServices].[ServiceName] AS [ServiceName]
+    FROM [dbo].[EdgeServices] AS [EdgeServices]</DefiningQuery>
+          </EntitySet>
         </EntityContainer>
-      </Schema>
-    </edmx:StorageModels>
+      </Schema></edmx:StorageModels>
     <!-- CSDL content -->
     <edmx:ConceptualModels>
       <Schema Namespace="EdgeModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
@@ -73,7 +88,16 @@
         <EntityContainer Name="EdgeEntities" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="Loggings" EntityType="Self.Logging" />
           <EntitySet Name="Samples" EntityType="Self.Sample" />
+          <EntitySet Name="EdgeServices" EntityType="EdgeModel.EdgeService" />
         </EntityContainer>
+        <EntityType Name="EdgeService">
+          <Key>
+            <PropertyRef Name="Id" />
+            <PropertyRef Name="ServiceName" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" />
+          <Property Name="ServiceName" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+        </EntityType>
       </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
@@ -110,6 +134,14 @@
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
+          <EntitySetMapping Name="EdgeServices">
+            <EntityTypeMapping TypeName="EdgeModel.EdgeService">
+              <MappingFragment StoreEntitySet="EdgeServices">
+                <ScalarProperty Name="ServiceName" ColumnName="ServiceName" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
         </EntityContainerMapping>
       </Mapping>
     </edmx:Mappings>
@@ -131,6 +163,12 @@
       </DesignerInfoPropertySet>
     </Options>
     <!-- Diagram content (shape and connector positions) -->
-    <Diagrams></Diagrams>
+    <Diagrams>
+      <Diagram DiagramId="c497dde247c74e66a24ba28ea7349265" Name="Diagram1">
+        <EntityTypeShape EntityType="EdgeModel.Logging" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EdgeModel.Sample" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EdgeModel.EdgeService" Width="1.5" PointX="0.75" PointY="4.75" />
+      </Diagram>
+    </Diagrams>
   </Designer>
 </edmx:Edmx>

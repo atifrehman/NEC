@@ -21,3 +21,14 @@ F:\Impl\NEC\Edge\Edge.Models\obj\Debug\5.Edge.Models.csproj.CoreCompileInputs.ca
 F:\Impl\NEC\Edge\Edge.Models\obj\Debug\5.Edge.Models.csproj.CopyComplete
 F:\Impl\NEC\Edge\Edge.Models\obj\Debug\Edge.Models.dll
 F:\Impl\NEC\Edge\Edge.Models\obj\Debug\Edge.Models.pdb
+D:\Implementations\Edge\Edge.Models\bin\Debug\Edge.Models.dll.config
+D:\Implementations\Edge\Edge.Models\bin\Debug\Edge.Models.dll
+D:\Implementations\Edge\Edge.Models\bin\Debug\Edge.Models.pdb
+D:\Implementations\Edge\Edge.Models\bin\Debug\EntityFramework.dll
+D:\Implementations\Edge\Edge.Models\bin\Debug\EntityFramework.SqlServer.dll
+D:\Implementations\Edge\Edge.Models\bin\Debug\EntityFramework.xml
+D:\Implementations\Edge\Edge.Models\bin\Debug\EntityFramework.SqlServer.xml
+D:\Implementations\Edge\Edge.Models\obj\Debug\5.Edge.Models.csproj.CoreCompileInputs.cache
+D:\Implementations\Edge\Edge.Models\obj\Debug\5.Edge.Models.csproj.CopyComplete
+D:\Implementations\Edge\Edge.Models\obj\Debug\Edge.Models.dll
+D:\Implementations\Edge\Edge.Models\obj\Debug\Edge.Models.pdb

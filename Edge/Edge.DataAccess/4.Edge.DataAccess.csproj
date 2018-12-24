@@ -61,9 +61,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Edge.edmx</DependentUpon>
     </Compile>
+    <Compile Include="LocalStorage\Interface\IEdgeServiceRepository.cs" />
     <Compile Include="LocalStorage\Interface\IGenericRepository.cs" />
     <Compile Include="LocalStorage\Interface\ILoggingRepository.cs" />
     <Compile Include="LocalStorage\Interface\ISampleRepository.cs" />
+    <Compile Include="LocalStorage\Repository\EdgeServiceRepository.cs" />
     <Compile Include="LocalStorage\Repository\GenericRepository.cs" />
     <Compile Include="LocalStorage\Repository\LoggingRepository.cs" />
     <Compile Include="LocalStorage\Repository\SampleRepository.cs" />
@@ -83,7 +85,9 @@
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="LocalStorage\SqlScripts\EdgeServiceEntries.sql" />
+  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Edge.Models\5.Edge.Models.csproj">
       <Project>{0C4F9018-2103-485A-BB9B-9A0DD5A31DD1}</Project>

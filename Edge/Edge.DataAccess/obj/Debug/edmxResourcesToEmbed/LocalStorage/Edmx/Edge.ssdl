@@ -1,5 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Schema Namespace="EdgeModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'Edge.dbo.EdgeServices' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="EdgeServices">
+    <Key>
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="ServiceName" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="ServiceName" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
   <EntityType Name="Logging">
     <Key>
       <PropertyRef Name="Id" />
@@ -31,5 +41,11 @@
   <EntityContainer Name="EdgeModelStoreContainer">
     <EntitySet Name="Logging" EntityType="Self.Logging" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Sample" EntityType="Self.Sample" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="EdgeServices" EntityType="Self.EdgeServices" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [EdgeServices].[Id] AS [Id], 
+    [EdgeServices].[ServiceName] AS [ServiceName]
+    FROM [dbo].[EdgeServices] AS [EdgeServices]</DefiningQuery>
+    </EntitySet>
   </EntityContainer>
 </Schema>

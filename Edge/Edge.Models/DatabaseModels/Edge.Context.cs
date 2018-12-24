@@ -27,5 +27,6 @@ namespace Edge.Models.DatabaseModels
     
         public virtual DbSet<Logging> Loggings { get; set; }
         public virtual DbSet<Sample> Samples { get; set; }
+        public virtual DbSet<EdgeService> EdgeServices { get; set; }
     }
 }

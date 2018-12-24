@@ -58,12 +58,16 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Edge.tt</DependentUpon>
     </Compile>
+    <Compile Include="DatabaseModels\EdgeService.cs">
+      <DependentUpon>Edge.tt</DependentUpon>
+    </Compile>
     <Compile Include="DatabaseModels\Logging.cs">
       <DependentUpon>Edge.tt</DependentUpon>
     </Compile>
     <Compile Include="DatabaseModels\Sample.cs">
       <DependentUpon>Edge.tt</DependentUpon>
     </Compile>
+    <Compile Include="DatabasePartials\EdgeService.cs" />
     <Compile Include="DatabasePartials\Logging.cs" />
     <Compile Include="DatabasePartials\Sample.cs" />
     <Compile Include="Enumerations\Enumeration.cs" />

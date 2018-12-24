@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Edge",
+    "\\Edge\\Edge.API",
+    "\\Edge\\Edge.API\\Controllers",
+    "\\ndnSIM",
+    "\\ndnSIM\\apps"
+  ],
+  "SelectedNode": "\\Edge\\Edge.API\\Controllers\\SampleController.cs",
+  "PreviewInSolutionExplorer": false
+}
