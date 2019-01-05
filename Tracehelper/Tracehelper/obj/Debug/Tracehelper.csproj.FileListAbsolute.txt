@@ -1,0 +1,7 @@
+C:\Users\atif\source\repos\Tracehelper\Tracehelper\bin\Debug\Tracehelper.exe.config
+C:\Users\atif\source\repos\Tracehelper\Tracehelper\bin\Debug\Tracehelper.exe
+C:\Users\atif\source\repos\Tracehelper\Tracehelper\bin\Debug\Tracehelper.pdb
+C:\Users\atif\source\repos\Tracehelper\Tracehelper\obj\Debug\Tracehelper.csprojAssemblyReference.cache
+C:\Users\atif\source\repos\Tracehelper\Tracehelper\obj\Debug\Tracehelper.csproj.CoreCompileInputs.cache
+C:\Users\atif\source\repos\Tracehelper\Tracehelper\obj\Debug\Tracehelper.exe
+C:\Users\atif\source\repos\Tracehelper\Tracehelper\obj\Debug\Tracehelper.pdb
