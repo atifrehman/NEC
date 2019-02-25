@@ -1,7 +1,7 @@
 # Installation Procedure
 
 This short and simple manual is intended to help the community use our proposed framework for Edge computing, Cloud computing and NDN experimentation. Our framework integrates ndnSIM, Edge Computing and Cloud computing. However, our code and framework could also be used for standalone Edge/Cloud computing purposes. Moreover, if one’s is not familiar with ndnSIM or their research area is not NDN, then they could also use their own tool to generate requests from end user devices and can avail the benefits of Edge Cloud computing.  In order to enable the operation between ndnSIM and Edge Cloud Computing, we need some changes in some specific files and are discussed as follows:
-Basically, there are 3 major parts 1) NDN 2) Edge Computing 3) Cloud Computing. Following steps details the procedure. 
+Basically, there are 3 major parts of our system 1) NDN 2) Edge Computing 3) Cloud Computing. Following steps details the procedure. 
 
 ## NDN related Code changes:
 NDN related changes are implemented in ndnSIM simulator. We have changed the files (ndn-producer.cpp and ndn-producer.hpp) in the apps folder of ndnSIM. 
