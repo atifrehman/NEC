@@ -21,7 +21,7 @@ Download all the code from NEC/Edge. Once download then to run the Edge applicat
 The detail of deployment can be found in following link.  
 https://docs.microsoft.com/en-us/aspnet/web-forms/overview/deployment/visual-studio-web-deployment/deploying-to-iis
 
-It is recommended to publish to publish Web Application and Web API separately in order to run both of these application under separate application pool.
+It is recommended to publish  Web Application and Web API separately in order to run both of these application under separate application pool.
 
 ## Cloud Application.
 
