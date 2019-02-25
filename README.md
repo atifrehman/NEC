@@ -27,5 +27,5 @@ It is recommended to publish  Web Application and Web API separately in order to
 
 Cloud application can be deployed same as the Edge Application. However, it is recommended to deploy Cloud application on Microsoft Azure or Amazon web server. The rationale of deploying the Cloud application on Microsoft Azure or Amazon is that this application must be at multiple hop distance from the Edge tier and things/devices tier so that you can test better latency related measurements.  If you don't have Microsoft Azure or Amazon server then you can deploy it on any powerful machine but make sure that machine must be at multiple hops distance. 
 
-For tracing  results you may also use our self-developed application available on our GitHub page under NEC/Tracehelper. To aid better understanding we also provide a sample tracefile.txt in NEC/Tracehelper/Tracehelper/TraceFile/ 
+For tracing  results you may also use our self-developed application available on our GitHub page under NEC/Tracehelper. To aid better understanding we have also provided a sample tracefile.txt in NEC/Tracehelper/Tracehelper/TraceFile/ 
 
