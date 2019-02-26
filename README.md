@@ -29,3 +29,6 @@ Cloud application can be deployed same as the Edge Application. However, it is r
 
 For tracing  results you may also use our self-developed application available on our GitHub page under NEC/Tracehelper. To aid better understanding we have also provided a sample tracefile.txt in NEC/Tracehelper/Tracehelper/TraceFile/ 
 
+Feel free to contact us  or any questions you may have.
+
+
