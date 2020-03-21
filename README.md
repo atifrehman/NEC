@@ -1,3 +1,8 @@
+# Citing this Research
+Rehmat Ullah , Muhammad Atif Ur Rehman, and Byung-Seo Kim, “Design and Implementation of an Open Source Framework and Prototype For Named Data Networking based Edge Cloud Computing System,” in IEEE Access, vol. 7, pp. 57741-57759, 2019, doi: 10.1109/ACCESS.2019.2914067. 
+
+Link to Paper: https://ieeexplore.ieee.org/abstract/document/8703380.
+
 # Installation Procedure
 
 This short and simple manual is intended to help the community use our proposed framework for Edge computing, Cloud computing and NDN experimentation. Our framework integrates ndnSIM, Edge Computing and Cloud computing. However, our code and framework could also be used for standalone Edge/Cloud computing purposes. Moreover, if one’s is not familiar with ndnSIM or their research area is not NDN, then they could also use their own tool to generate requests from end user devices and can avail the benefits of Edge Cloud computing.  In order to enable the operation between ndnSIM and Edge Cloud Computing, we need some changes in some specific files and are discussed as follows:
