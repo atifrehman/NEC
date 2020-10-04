@@ -5,7 +5,7 @@ Link to Paper: https://ieeexplore.ieee.org/abstract/document/8703380.
 
 # Installation Procedure
 
-This short and simple manual is intended to help the community use our proposed framework for Edge computing, Cloud computing and NDN experimentation. Our framework integrates ndnSIM, Edge Computing and Cloud computing. However, our code and framework could also be used for standalone Edge/Cloud computing purposes. Moreover, if one’s is not familiar with ndnSIM or their research area is not NDN, then they could also use their own tool to generate requests from end user devices and can avail the benefits of Edge Cloud computing.  In order to enable the operation between ndnSIM and Edge Cloud Computing, we need some changes in some specific files and are discussed as follows:
+This short and simple manual is intended to help the community use our proposed framework for Edge computing, Cloud computing and NDN experimentation. Our framework integrates ndnSIM, Edge Computing (.NET Framework Web API & Web Interface) and Cloud computing (.NET Franework Web API Deployed at Microsoft Azure). However, our code and framework could also be used for standalone Edge/Cloud computing purposes. Moreover, if one’s is not familiar with ndnSIM or their research area is not NDN, then they could also use their own tool to generate requests from end user devices and can avail the benefits of Edge Cloud computing.  In order to enable the operation between ndnSIM and Edge Cloud Computing, we need some changes in some specific files and are discussed as follows:
 Basically, there are 3 major parts of our system 1) NDN 2) Edge Computing 3) Cloud Computing. Following steps details the procedure. 
 
 ## NDN related Code changes:
@@ -32,6 +32,10 @@ It is recommended to publish  Web Application and Web API separately in order to
 
 Cloud application can be deployed same as the Edge Application. However, it is recommended to deploy Cloud application on Microsoft Azure or Amazon web server. The rationale of deploying the Cloud application on Microsoft Azure or Amazon is that this application must be at multiple hop distance from the Edge tier and things/devices tier so that you can test better latency related measurements.  If you don't have Microsoft Azure or Amazon server then you can deploy it on any powerful machine but make sure that machine must be at multiple hops distance. 
 
+## Database.
+For the database, our framework is employing SQL Server to store the content at edge and cloud. To create the database table one can follow the classes mentioned in Model layer of this application. 
+
+## Tracing.
 For tracing  results you may also use our self-developed application available on our GitHub page under NEC/Tracehelper. To aid better understanding we have also provided a sample tracefile.txt in NEC/Tracehelper/Tracehelper/TraceFile/ 
 
 Feel free to contact us  or any questions you may have.
