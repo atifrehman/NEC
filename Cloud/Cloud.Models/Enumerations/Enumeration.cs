@@ -11,7 +11,8 @@ namespace Cloud.Models
         public enum LogType
         {
             Debug,
-            Exception
+            Exception,
+            Info
         }
     }
 }
