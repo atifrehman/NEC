@@ -11,7 +11,8 @@ namespace Edge.Models
         public enum LogType
         {
             Debug,
-            Exception
+            Exception,
+            Info
         }
     }
 }
